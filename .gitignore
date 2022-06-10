@@ -8,3 +8,5 @@
 *.csv**
 *.npy**
 *.pyc**
+.venv
+design_bench_data/
