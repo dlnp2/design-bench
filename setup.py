@@ -23,7 +23,7 @@ setup(name='design-bench', version='2.0.20', license='MIT',
       extras_require={'all': ['gym[mujoco]'], 'cma': ['cma']},
       install_requires=['pandas', 'requests', 'scikit-learn',
                         'torch', 'torchvision', 'numpy',
-                        'tensorflow==2.9.1', 'transformers==4.6.0',
+                        'tensorflow==2.9.1', 'transformers',
                         'tokenizers', 'deepchem'],
       classifiers=[
           'Intended Audience :: Developers',
